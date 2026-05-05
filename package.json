@@ -1,0 +1,26 @@
+{
+  "name": "test-token-ui",
+  "private": true,
+  "description": "source-first React UI kit.",
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter vite-example dev",
+    "docs:dev": "pnpm --filter docs dev",
+    "docs:build": "pnpm --filter docs build",
+    "docs:build:gh-pages": "pnpm --filter docs build:gh-pages",
+    "docs:deploy": "pnpm --filter docs deploy",
+    "registry:sync": "pnpm --filter @xwartz/test-token-ui sync:registry",
+    "build": "pnpm -r --if-present build",
+    "check": "biome check .",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "cli:dry-run": "pnpm --filter @xwartz/test-token-ui dev add card --dry-run --cwd examples/vite"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.10",
+    "typescript": "^5.9.3"
+  }
+}

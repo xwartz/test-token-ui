@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@xwartz/test-token-ui-source/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}

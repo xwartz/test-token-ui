@@ -1,0 +1,30 @@
+{
+  "name": "docs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "build:gh-pages": "node ./scripts/deploy-gh-pages.mjs --build-only",
+    "deploy": "node ./scripts/deploy-gh-pages.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@xwartz/test-token-ui-source": "workspace:*",
+    "lucide-react": "^1.7.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-hook-form": "^7.75.0",
+    "recharts": "^3.8.1",
+    "vite": "^8.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3"
+  }
+}
