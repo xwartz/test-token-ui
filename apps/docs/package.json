@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "build:gh-pages": "node ./scripts/deploy-gh-pages.mjs --build-only",
-    "deploy": "node ./scripts/deploy-gh-pages.mjs",
+    "preview": "vite preview --host 0.0.0.0",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -24,7 +23,6 @@
   "devDependencies": {
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "gh-pages": "^6.3.0",
     "typescript": "^5.9.3"
   }
 }
