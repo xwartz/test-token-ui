@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@xwartz/test-token-ui-source/*": ["./src/*"]
+      "@xwartz/token-ui-source/*": ["./src/*"]
     }
   },
   "include": ["src"]

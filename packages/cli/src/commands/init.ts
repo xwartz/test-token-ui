@@ -11,7 +11,7 @@ export type InitOptions = {
 export async function initCommand({ cwd, dryRun }: InitOptions) {
   const configPath = path.join(cwd, 'components.json')
   const config = {
-    style: "test-token-ui",
+    style: "token-ui",
     tsx: true,
     tailwind: { css: "src/styles/globals.css" },
     aliases: {
@@ -32,5 +32,5 @@ export async function initCommand({ cwd, dryRun }: InitOptions) {
     await copyRegistryFile({ file, cwd, dryRun })
   }
 
-  console.log("Initialized test-token-ui project files.")
+  console.log("Initialized token-ui project files.")
 }

@@ -1,4 +1,4 @@
-import { Button } from "@xwartz/test-token-ui-source/components/button"
+import { Button } from "@xwartz/token-ui-source/components/button"
 import { ExternalLink, Menu, X } from "lucide-react"
 import type { ReactNode } from "react"
 import { useState } from "react"
@@ -33,7 +33,7 @@ export function DocsShell({ children }: DocsShellProps) {
           <div className="hidden items-center gap-2 md:flex">
             <Button asChild size="sm" variant="outline">
               <a
-                href="https://github.com/xwartz/test-token-ui"
+                href="https://github.com/xwartz/token-ui"
                 rel="noreferrer"
                 target="_blank"
               >

@@ -1,5 +1,5 @@
 {
-  "name": "test-token-ui",
+  "name": "token-ui",
   "private": true,
   "description": "source-first React UI kit.",
   "type": "module",
@@ -12,11 +12,11 @@
     "docs:dev": "pnpm --filter docs dev",
     "docs:build": "pnpm --filter docs build",
     "docs:preview": "pnpm --filter docs preview",
-    "registry:sync": "pnpm --filter @xwartz/test-token-ui sync:registry",
+    "registry:sync": "pnpm --filter @xwartz/token-ui sync:registry",
     "build": "pnpm -r --if-present build",
     "check": "biome check .",
     "typecheck": "pnpm -r --if-present typecheck",
-    "cli:dry-run": "pnpm --filter @xwartz/test-token-ui dev add card --dry-run --cwd examples/vite"
+    "cli:dry-run": "pnpm --filter @xwartz/token-ui dev add card --dry-run --cwd examples/vite"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.10",

@@ -13,16 +13,13 @@ const generatedFiles = Array.from(
 ).sort()
 
 const replacements: Array<[RegExp, string]> = [
+  [/from ['"]@xwartz\/token-ui-source\/lib\/utils['"]/g, "from '@/lib/utils'"],
   [
-    /from ['"]@xwartz\/test-token-ui-source\/lib\/utils['"]/g,
-    "from '@/lib/utils'",
-  ],
-  [
-    /from ['"]@xwartz\/test-token-ui-source\/hooks\/([^'"]+)['"]/g,
+    /from ['"]@xwartz\/token-ui-source\/hooks\/([^'"]+)['"]/g,
     "from '@/hooks/$1'",
   ],
   [
-    /from ['"]@xwartz\/test-token-ui-source\/components\/([^'"]+)['"]/g,
+    /from ['"]@xwartz\/token-ui-source\/components\/([^'"]+)['"]/g,
     "from '@/components/ui/$1'",
   ],
 ]

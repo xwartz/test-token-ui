@@ -10,7 +10,7 @@ export type AddOptions = {
 export async function addCommand({ components, cwd, dryRun }: AddOptions) {
   if (components.length === 0) {
     throw new Error(
-      "Please provide at least one component name, for example: test-token-ui add card",
+      "Please provide at least one component name, for example: token-ui add card",
     )
   }
 

@@ -1,5 +1,5 @@
 import * as ScrollAreaPrimitive from '@radix-ui/react-scroll-area'
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import type * as React from 'react'
 
 function ScrollArea({

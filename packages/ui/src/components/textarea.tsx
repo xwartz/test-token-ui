@@ -1,4 +1,4 @@
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import type * as React from "react"
 
 function Textarea({ className, ...props }: React.ComponentProps<"textarea">) {

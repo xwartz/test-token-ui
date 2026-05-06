@@ -1,4 +1,4 @@
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 
 function Input({ className, type, ...props }: React.ComponentProps<"input">) {
   return (

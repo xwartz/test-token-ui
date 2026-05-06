@@ -1,5 +1,5 @@
-import { Badge } from "@xwartz/test-token-ui-source/components/badge"
-import { Button } from "@xwartz/test-token-ui-source/components/button"
+import { Badge } from "@xwartz/token-ui-source/components/badge"
+import { Button } from "@xwartz/token-ui-source/components/button"
 import {
   Card,
   CardContent,
@@ -7,7 +7,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@xwartz/test-token-ui-source/components/card"
+} from "@xwartz/token-ui-source/components/card"
 import {
   Dialog,
   DialogContent,
@@ -16,8 +16,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@xwartz/test-token-ui-source/components/dialog"
-import { Input } from "@xwartz/test-token-ui-source/components/input"
+} from "@xwartz/token-ui-source/components/dialog"
+import { Input } from "@xwartz/token-ui-source/components/input"
 import { ArrowRight, ShieldCheck, Sparkles } from "lucide-react"
 
 const assets = [
@@ -85,7 +85,7 @@ export function App() {
                     Source-first components
                   </p>
                   <p className="text-body-sm text-muted-foreground">
-                    Add files with the test-token-ui CLI.
+                    Add files with the token-ui CLI.
                   </p>
                 </div>
               </div>

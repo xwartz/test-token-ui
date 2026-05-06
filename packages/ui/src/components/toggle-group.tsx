@@ -1,6 +1,6 @@
 import * as ToggleGroupPrimitive from '@radix-ui/react-toggle-group'
-import { toggleVariants } from "@xwartz/test-token-ui-source/components/toggle"
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { toggleVariants } from "@xwartz/token-ui-source/components/toggle"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import type { VariantProps } from 'class-variance-authority'
 import * as React from 'react'
 

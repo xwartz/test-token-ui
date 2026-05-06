@@ -33,12 +33,12 @@ function parseArgs(argv: string[]) {
 }
 
 function printHelp() {
-  console.log(`test-token-ui
+  console.log(`token-ui
 
 Usage:
-  test-token-ui init [--cwd path] [--dry-run]
-  test-token-ui add card [button input] [--cwd path] [--dry-run]
-  test-token-ui list
+  token-ui init [--cwd path] [--dry-run]
+  token-ui add card [button input] [--cwd path] [--dry-run]
+  token-ui list
 `)
 }
 

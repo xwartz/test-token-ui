@@ -1,5 +1,5 @@
 import * as DialogPrimitive from '@radix-ui/react-dialog'
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { XIcon } from 'lucide-react'
 import type * as React from 'react'
 

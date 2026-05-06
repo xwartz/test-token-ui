@@ -1,5 +1,5 @@
 import { Slot } from '@radix-ui/react-slot'
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { cva, type VariantProps } from 'class-variance-authority'
 import type { ReactNode } from 'react'
 

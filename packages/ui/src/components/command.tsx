@@ -4,8 +4,8 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@xwartz/test-token-ui-source/components/dialog"
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+} from "@xwartz/token-ui-source/components/dialog"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { Command as CommandPrimitive } from "cmdk"
 import { SearchIcon } from "lucide-react"
 import type * as React from "react"

@@ -4,7 +4,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@xwartz/test-token-ui-source/components/card"
+} from "@xwartz/token-ui-source/components/card"
 import type { ReactNode } from 'react'
 import { CodeBlock } from './code-block'
 

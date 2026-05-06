@@ -5,7 +5,7 @@ Components are written as source files that can be copied into your app.
 ## Card
 
 ```bash
-pnpm dlx @xwartz/test-token-ui@latest add card
+pnpm dlx @xwartz/token-ui@latest add card
 ```
 
 ```tsx
@@ -26,7 +26,7 @@ export function Example() {
 ## Button
 
 ```bash
-pnpm dlx @xwartz/test-token-ui@latest add button
+pnpm dlx @xwartz/token-ui@latest add button
 ```
 
 Use variants instead of custom classes when possible: `default`, `secondary`, `outline`, `ghost`, `destructive`, `foreground`, and `link`.
@@ -34,7 +34,7 @@ Use variants instead of custom classes when possible: `default`, `secondary`, `o
 ## Dialog
 
 ```bash
-pnpm dlx @xwartz/test-token-ui@latest add dialog button
+pnpm dlx @xwartz/token-ui@latest add dialog button
 ```
 
 Dialog uses Radix primitives and the UI Kit overlay token `bg-dark-surface/50`.

@@ -1,5 +1,5 @@
 import * as SwitchPrimitive from '@radix-ui/react-switch'
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import type * as React from 'react'
 
 function Switch({ className, ...props }: React.ComponentProps<typeof SwitchPrimitive.Root>) {

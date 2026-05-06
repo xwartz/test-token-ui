@@ -1,4 +1,4 @@
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 
 interface HoldingCardProps extends React.ComponentProps<"div"> {
   label: string

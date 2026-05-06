@@ -1,5 +1,5 @@
 import * as TogglePrimitive from '@radix-ui/react-toggle'
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { cva, type VariantProps } from 'class-variance-authority'
 import type * as React from 'react'
 

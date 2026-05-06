@@ -1,4 +1,4 @@
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { Check } from "lucide-react"
 import type { ReactNode } from "react"
 

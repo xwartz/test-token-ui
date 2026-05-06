@@ -1,5 +1,5 @@
-import { buttonVariants } from "@xwartz/test-token-ui-source/components/button"
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { buttonVariants } from "@xwartz/token-ui-source/components/button"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import type { VariantProps } from "class-variance-authority"
 import {
   ChevronLeftIcon,

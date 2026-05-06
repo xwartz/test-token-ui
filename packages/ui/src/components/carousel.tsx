@@ -1,5 +1,5 @@
-import { Button } from "@xwartz/test-token-ui-source/components/button"
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { Button } from "@xwartz/token-ui-source/components/button"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"

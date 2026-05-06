@@ -1,5 +1,5 @@
-import { buttonVariants } from "@xwartz/test-token-ui-source/components/button"
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { buttonVariants } from "@xwartz/token-ui-source/components/button"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import type * as React from "react"
 import { DayPicker } from "react-day-picker"

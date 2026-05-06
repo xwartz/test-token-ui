@@ -23,7 +23,7 @@ importers:
       '@vitejs/plugin-react':
         specifier: ^6.0.1
         version: 6.0.1(vite@8.0.10(@types/node@22.19.17)(esbuild@0.27.7)(jiti@2.6.1)(tsx@4.21.0))
-      '@xwartz/test-token-ui-source':
+      '@xwartz/token-ui-source':
         specifier: workspace:*
         version: link:../../packages/ui
       lucide-react:
@@ -63,7 +63,7 @@ importers:
       '@vitejs/plugin-react':
         specifier: ^6.0.1
         version: 6.0.1(vite@8.0.10(@types/node@22.19.17)(esbuild@0.27.7)(jiti@2.6.1)(tsx@4.21.0))
-      '@xwartz/test-token-ui-source':
+      '@xwartz/token-ui-source':
         specifier: workspace:*
         version: link:../../packages/ui
       lucide-react:

@@ -1,4 +1,4 @@
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const sectionPanelVariants = cva("rounded-xl border border-border bg-card", {

@@ -1,11 +1,11 @@
-import { Badge } from "@xwartz/test-token-ui-source/components/badge"
+import { Badge } from "@xwartz/token-ui-source/components/badge"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@xwartz/test-token-ui-source/components/card"
+} from "@xwartz/token-ui-source/components/card"
 import { ArrowRight, Code2, GitBranch, Palette, Sparkles } from "lucide-react"
 import { useEffect, useState } from "react"
 import { CodeBlock } from "./components/code-block"
@@ -459,7 +459,7 @@ const componentProps: Record<
     {
       name: "className",
       type: "string",
-      description: "Additional classes merged with test-token-ui styles.",
+      description: "Additional classes merged with token-ui styles.",
     },
   ],
   dialog: [
@@ -494,7 +494,7 @@ const defaultProps = [
   {
     name: "className",
     type: "string",
-    description: "Additional classes merged with test-token-ui styles.",
+    description: "Additional classes merged with token-ui styles.",
   },
   {
     name: "children",
@@ -503,8 +503,8 @@ const defaultProps = [
   },
 ]
 
-const installCode = `pnpm dlx @xwartz/test-token-ui@latest init
-pnpm dlx @xwartz/test-token-ui@latest add button card input badge dialog`
+const installCode = `pnpm dlx @xwartz/token-ui@latest init
+pnpm dlx @xwartz/token-ui@latest add button card input badge dialog`
 
 const usageCode = `import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -718,22 +718,22 @@ const cliCommands = [
   [
     "init",
     "Create base project files.",
-    "pnpm dlx @xwartz/test-token-ui@latest init",
+    "pnpm dlx @xwartz/token-ui@latest init",
   ],
   [
     "add",
     "Copy one or more components.",
-    "pnpm dlx @xwartz/test-token-ui@latest add button card",
+    "pnpm dlx @xwartz/token-ui@latest add button card",
   ],
   [
     "dry-run",
     "Preview copied files before writing.",
-    "pnpm dlx @xwartz/test-token-ui@latest add sidebar --dry-run",
+    "pnpm dlx @xwartz/token-ui@latest add sidebar --dry-run",
   ],
   [
     "list",
     "List registry components.",
-    "pnpm dlx @xwartz/test-token-ui@latest list",
+    "pnpm dlx @xwartz/token-ui@latest list",
   ],
 ]
 
@@ -767,8 +767,7 @@ function getComponentDescription(component: { name: string; group: string }) {
   }
 
   return (
-    descriptions[component.group] ??
-    `${name} is a copyable test-token-ui component.`
+    descriptions[component.group] ?? `${name} is a copyable token-ui component.`
   )
 }
 
@@ -1039,7 +1038,7 @@ function ComponentPage({
         title="Installation"
       >
         <CodeBlock
-          code={`pnpm dlx @xwartz/test-token-ui@latest add ${component.name}`}
+          code={`pnpm dlx @xwartz/token-ui@latest add ${component.name}`}
         />
       </DocSection>
       <DocSection
@@ -1061,7 +1060,7 @@ function ComponentPage({
         />
       </DocSection>
       <DocSection
-        description="Live states rendered with real test-token-ui components, paired with matching source snippets."
+        description="Live states rendered with real token-ui components, paired with matching source snippets."
         title="Examples"
       >
         <ExamplesBlock
@@ -1157,7 +1156,7 @@ function CliPage() {
       <PageHeader
         badge="CLI"
         description="The CLI copies files from the generated registry into the target project and prints peer dependencies."
-        title="@xwartz/test-token-ui"
+        title="@xwartz/token-ui"
       />
       <div className="grid gap-4">
         {cliCommands.map(([name, description, command]) => (

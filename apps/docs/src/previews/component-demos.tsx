@@ -3,34 +3,34 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@xwartz/test-token-ui-source/components/accordion'
-import * as ActionBarUI from '@xwartz/test-token-ui-source/components/action-bar'
-import * as AlertUI from '@xwartz/test-token-ui-source/components/alert'
-import * as AlertDialogUI from '@xwartz/test-token-ui-source/components/alert-dialog'
-import * as AspectRatioUI from '@xwartz/test-token-ui-source/components/aspect-ratio'
-import * as AssetRowUI from '@xwartz/test-token-ui-source/components/asset-row'
-import * as AvatarUI from '@xwartz/test-token-ui-source/components/avatar'
-import { Badge } from '@xwartz/test-token-ui-source/components/badge'
-import * as BottomSheetModalUI from '@xwartz/test-token-ui-source/components/bottom-sheet-modal'
-import * as BreadcrumbUI from '@xwartz/test-token-ui-source/components/breadcrumb'
-import { Button } from '@xwartz/test-token-ui-source/components/button'
+} from "@xwartz/token-ui-source/components/accordion"
+import * as ActionBarUI from "@xwartz/token-ui-source/components/action-bar"
+import * as AlertUI from "@xwartz/token-ui-source/components/alert"
+import * as AlertDialogUI from "@xwartz/token-ui-source/components/alert-dialog"
+import * as AspectRatioUI from "@xwartz/token-ui-source/components/aspect-ratio"
+import * as AssetRowUI from "@xwartz/token-ui-source/components/asset-row"
+import * as AvatarUI from "@xwartz/token-ui-source/components/avatar"
+import { Badge } from "@xwartz/token-ui-source/components/badge"
+import * as BottomSheetModalUI from "@xwartz/token-ui-source/components/bottom-sheet-modal"
+import * as BreadcrumbUI from "@xwartz/token-ui-source/components/breadcrumb"
+import { Button } from "@xwartz/token-ui-source/components/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@xwartz/test-token-ui-source/components/card'
-import * as CalendarUI from '@xwartz/test-token-ui-source/components/calendar'
-import * as CarouselUI from '@xwartz/test-token-ui-source/components/carousel'
-import * as ChartUI from '@xwartz/test-token-ui-source/components/chart'
-import * as ChatBubbleUI from '@xwartz/test-token-ui-source/components/chat-bubble'
-import * as CheckboxUI from '@xwartz/test-token-ui-source/components/checkbox'
-import * as ChecklistCardUI from '@xwartz/test-token-ui-source/components/checklist-card'
-import * as ChipUI from '@xwartz/test-token-ui-source/components/chip'
-import * as CollapsibleUI from '@xwartz/test-token-ui-source/components/collapsible'
-import * as CommandUI from '@xwartz/test-token-ui-source/components/command'
-import * as ContextMenuUI from '@xwartz/test-token-ui-source/components/context-menu'
+} from "@xwartz/token-ui-source/components/card"
+import * as CalendarUI from "@xwartz/token-ui-source/components/calendar"
+import * as CarouselUI from "@xwartz/token-ui-source/components/carousel"
+import * as ChartUI from "@xwartz/token-ui-source/components/chart"
+import * as ChatBubbleUI from "@xwartz/token-ui-source/components/chat-bubble"
+import * as CheckboxUI from "@xwartz/token-ui-source/components/checkbox"
+import * as ChecklistCardUI from "@xwartz/token-ui-source/components/checklist-card"
+import * as ChipUI from "@xwartz/token-ui-source/components/chip"
+import * as CollapsibleUI from "@xwartz/token-ui-source/components/collapsible"
+import * as CommandUI from "@xwartz/token-ui-source/components/command"
+import * as ContextMenuUI from "@xwartz/token-ui-source/components/context-menu"
 import {
   Dialog,
   DialogContent,
@@ -39,50 +39,55 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@xwartz/test-token-ui-source/components/dialog'
-import * as DrawerUI from '@xwartz/test-token-ui-source/components/drawer'
-import * as DropdownMenuUI from '@xwartz/test-token-ui-source/components/dropdown-menu'
-import * as FeatureItemUI from '@xwartz/test-token-ui-source/components/feature-item'
-import * as FormUI from '@xwartz/test-token-ui-source/components/form'
-import * as HoldingCardUI from '@xwartz/test-token-ui-source/components/holding-card'
-import * as HoverCardUI from '@xwartz/test-token-ui-source/components/hover-card'
-import * as IconBoxUI from '@xwartz/test-token-ui-source/components/icon-box'
-import * as IconButtonUI from '@xwartz/test-token-ui-source/components/icon-button'
-import { Input } from '@xwartz/test-token-ui-source/components/input'
-import * as InputOtpUI from '@xwartz/test-token-ui-source/components/input-otp'
-import * as LabelUI from '@xwartz/test-token-ui-source/components/label'
-import * as MenubarUI from '@xwartz/test-token-ui-source/components/menubar'
-import * as NavItemUI from '@xwartz/test-token-ui-source/components/nav-item'
-import * as NavigationMenuUI from '@xwartz/test-token-ui-source/components/navigation-menu'
-import * as PaginationUI from '@xwartz/test-token-ui-source/components/pagination'
-import * as PopoverUI from '@xwartz/test-token-ui-source/components/popover'
-import * as ProgressUI from '@xwartz/test-token-ui-source/components/progress'
-import * as RadioGroupUI from '@xwartz/test-token-ui-source/components/radio-group'
-import * as ResizableUI from '@xwartz/test-token-ui-source/components/resizable'
-import * as ScrollAreaUI from '@xwartz/test-token-ui-source/components/scroll-area'
-import * as SectionPanelUI from '@xwartz/test-token-ui-source/components/section-panel'
-import * as SelectUI from '@xwartz/test-token-ui-source/components/select'
-import * as SeparatorUI from '@xwartz/test-token-ui-source/components/separator'
-import * as SheetUI from '@xwartz/test-token-ui-source/components/sheet'
-import * as SidebarUI from '@xwartz/test-token-ui-source/components/sidebar'
-import * as SkeletonUI from '@xwartz/test-token-ui-source/components/skeleton'
-import * as SliderUI from '@xwartz/test-token-ui-source/components/slider'
-import * as SonnerUI from '@xwartz/test-token-ui-source/components/sonner'
-import * as StatCellUI from '@xwartz/test-token-ui-source/components/stat-cell'
-import * as StepCardUI from '@xwartz/test-token-ui-source/components/step-card'
-import * as SwitchUI from '@xwartz/test-token-ui-source/components/switch'
-import * as TableUI from '@xwartz/test-token-ui-source/components/table'
-import * as TabsUI from '@xwartz/test-token-ui-source/components/tabs'
-import * as TaskCardUI from '@xwartz/test-token-ui-source/components/task-card'
-import * as TextareaUI from '@xwartz/test-token-ui-source/components/textarea'
-import * as ToastUI from '@xwartz/test-token-ui-source/components/toast'
-import * as ToggleUI from '@xwartz/test-token-ui-source/components/toggle'
-import * as ToggleGroupUI from '@xwartz/test-token-ui-source/components/toggle-group'
-import * as TooltipUI from '@xwartz/test-token-ui-source/components/tooltip'
-import { ArrowRight, Search, ShieldCheck, Sparkles, Wallet } from 'lucide-react'
-import { Bar, BarChart, CartesianGrid, XAxis } from 'recharts'
-import { createElement, type ElementType, type ReactNode, useState } from 'react'
-import { useForm } from 'react-hook-form'
+} from "@xwartz/token-ui-source/components/dialog"
+import * as DrawerUI from "@xwartz/token-ui-source/components/drawer"
+import * as DropdownMenuUI from "@xwartz/token-ui-source/components/dropdown-menu"
+import * as FeatureItemUI from "@xwartz/token-ui-source/components/feature-item"
+import * as FormUI from "@xwartz/token-ui-source/components/form"
+import * as HoldingCardUI from "@xwartz/token-ui-source/components/holding-card"
+import * as HoverCardUI from "@xwartz/token-ui-source/components/hover-card"
+import * as IconBoxUI from "@xwartz/token-ui-source/components/icon-box"
+import * as IconButtonUI from "@xwartz/token-ui-source/components/icon-button"
+import { Input } from "@xwartz/token-ui-source/components/input"
+import * as InputOtpUI from "@xwartz/token-ui-source/components/input-otp"
+import * as LabelUI from "@xwartz/token-ui-source/components/label"
+import * as MenubarUI from "@xwartz/token-ui-source/components/menubar"
+import * as NavItemUI from "@xwartz/token-ui-source/components/nav-item"
+import * as NavigationMenuUI from "@xwartz/token-ui-source/components/navigation-menu"
+import * as PaginationUI from "@xwartz/token-ui-source/components/pagination"
+import * as PopoverUI from "@xwartz/token-ui-source/components/popover"
+import * as ProgressUI from "@xwartz/token-ui-source/components/progress"
+import * as RadioGroupUI from "@xwartz/token-ui-source/components/radio-group"
+import * as ResizableUI from "@xwartz/token-ui-source/components/resizable"
+import * as ScrollAreaUI from "@xwartz/token-ui-source/components/scroll-area"
+import * as SectionPanelUI from "@xwartz/token-ui-source/components/section-panel"
+import * as SelectUI from "@xwartz/token-ui-source/components/select"
+import * as SeparatorUI from "@xwartz/token-ui-source/components/separator"
+import * as SheetUI from "@xwartz/token-ui-source/components/sheet"
+import * as SidebarUI from "@xwartz/token-ui-source/components/sidebar"
+import * as SkeletonUI from "@xwartz/token-ui-source/components/skeleton"
+import * as SliderUI from "@xwartz/token-ui-source/components/slider"
+import * as SonnerUI from "@xwartz/token-ui-source/components/sonner"
+import * as StatCellUI from "@xwartz/token-ui-source/components/stat-cell"
+import * as StepCardUI from "@xwartz/token-ui-source/components/step-card"
+import * as SwitchUI from "@xwartz/token-ui-source/components/switch"
+import * as TableUI from "@xwartz/token-ui-source/components/table"
+import * as TabsUI from "@xwartz/token-ui-source/components/tabs"
+import * as TaskCardUI from "@xwartz/token-ui-source/components/task-card"
+import * as TextareaUI from "@xwartz/token-ui-source/components/textarea"
+import * as ToastUI from "@xwartz/token-ui-source/components/toast"
+import * as ToggleUI from "@xwartz/token-ui-source/components/toggle"
+import * as ToggleGroupUI from "@xwartz/token-ui-source/components/toggle-group"
+import * as TooltipUI from "@xwartz/token-ui-source/components/tooltip"
+import { ArrowRight, Search, ShieldCheck, Sparkles, Wallet } from "lucide-react"
+import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
+import {
+  createElement,
+  type ElementType,
+  type ReactNode,
+  useState,
+} from "react"
+import { useForm } from "react-hook-form"
 
 type ExampleArgs = {
   componentName: string
@@ -98,95 +103,98 @@ export interface ComponentDocExample {
 }
 
 const componentRoots: Partial<Record<string, ElementType>> = {
-  'aspect-ratio': AspectRatioUI.AspectRatio,
-  'asset-row': AssetRowUI.AssetRow,
-  'chat-bubble': ChatBubbleUI.ChatBubble,
-  'checklist-card': ChecklistCardUI.ChecklistCard,
+  "aspect-ratio": AspectRatioUI.AspectRatio,
+  "asset-row": AssetRowUI.AssetRow,
+  "chat-bubble": ChatBubbleUI.ChatBubble,
+  "checklist-card": ChecklistCardUI.ChecklistCard,
   chip: ChipUI.Chip,
-  'feature-item': FeatureItemUI.FeatureItem,
-  'holding-card': HoldingCardUI.HoldingCard,
-  'icon-box': IconBoxUI.IconBox,
-  'icon-button': IconButtonUI.IconButton,
-  'nav-item': NavItemUI.NavItem,
+  "feature-item": FeatureItemUI.FeatureItem,
+  "holding-card": HoldingCardUI.HoldingCard,
+  "icon-box": IconBoxUI.IconBox,
+  "icon-button": IconButtonUI.IconButton,
+  "nav-item": NavItemUI.NavItem,
   progress: ProgressUI.Progress,
-  'section-panel': SectionPanelUI.SectionPanel,
-  'stat-cell': StatCellUI.StatCell,
-  'task-card': TaskCardUI.TaskCard,
+  "section-panel": SectionPanelUI.SectionPanel,
+  "stat-cell": StatCellUI.StatCell,
+  "task-card": TaskCardUI.TaskCard,
   textarea: TextareaUI.Textarea,
   toggle: ToggleUI.Toggle,
 }
 
 const genericProps: Record<string, Record<string, unknown>> = {
-  'aspect-ratio': {
-    className: 'max-w-md overflow-hidden rounded-xl border border-border bg-surface-blue',
+  "aspect-ratio": {
+    className:
+      "max-w-md overflow-hidden rounded-xl border border-border bg-surface-blue",
     ratio: 16 / 9,
   },
-  'asset-row': {
-    amount: '1.2486 ETH',
-    avatar: <IconBoxUI.IconBox icon={<Wallet />} size="sm" variant="primary-soft" />,
-    detail: '+4.12%',
-    detailColor: 'var(--success)',
-    symbol: 'ETH',
-    value: '$4,286.12',
+  "asset-row": {
+    amount: "1.2486 ETH",
+    avatar: (
+      <IconBoxUI.IconBox icon={<Wallet />} size="sm" variant="primary-soft" />
+    ),
+    detail: "+4.12%",
+    detailColor: "var(--success)",
+    symbol: "ETH",
+    value: "$4,286.12",
   },
-  'chat-bubble': {
-    className: 'max-w-md',
-    variant: 'incoming',
+  "chat-bubble": {
+    className: "max-w-md",
+    variant: "incoming",
   },
-  'checklist-card': {
+  "checklist-card": {
     action: (
       <Button size="sm" variant="secondary">
         Review
       </Button>
     ),
-    description: 'Verify the recovery phrase backup before exporting access.',
-    title: 'Security checklist',
-    tone: 'info',
+    description: "Verify the recovery phrase backup before exporting access.",
+    title: "Security checklist",
+    tone: "info",
   },
   chip: {
     selected: true,
   },
-  'feature-item': {
+  "feature-item": {
     icon: <Sparkles className="size-4" />,
   },
-  'holding-card': {
-    amount: '12.48',
-    change: '+4.82%',
-    label: 'ETH',
-    pnl: '24h PnL',
-    suffix: 'Available balance',
-    value: '$41,280.22',
+  "holding-card": {
+    amount: "12.48",
+    change: "+4.82%",
+    label: "ETH",
+    pnl: "24h PnL",
+    suffix: "Available balance",
+    value: "$41,280.22",
   },
-  'icon-box': {
+  "icon-box": {
     icon: <Wallet />,
-    size: 'md',
-    variant: 'primary-soft',
+    size: "md",
+    variant: "primary-soft",
   },
-  'icon-button': {
+  "icon-button": {
     icon: <Search />,
-    label: 'Search positions',
-    size: 'md',
-    variant: 'foreground',
+    label: "Search positions",
+    size: "md",
+    variant: "foreground",
   },
-  'nav-item': {
+  "nav-item": {
     active: true,
-    className: 'max-w-xs',
+    className: "max-w-xs",
     icon: <Wallet />,
   },
   progress: {
-    className: 'max-w-md',
+    className: "max-w-md",
     value: 64,
   },
-  'section-panel': {
-    className: 'max-w-md',
-    padding: 'lg',
-    variant: 'elevated',
+  "section-panel": {
+    className: "max-w-md",
+    padding: "lg",
+    variant: "elevated",
   },
-  'stat-cell': {
-    label: 'Network fee',
-    value: '0.00042 ETH',
+  "stat-cell": {
+    label: "Network fee",
+    value: "0.00042 ETH",
   },
-  'task-card': {
+  "task-card": {
     actions: (
       <>
         <Button size="sm">Adjust</Button>
@@ -195,37 +203,37 @@ const genericProps: Record<string, Record<string, unknown>> = {
         </Button>
       </>
     ),
-    progress: { label: 'Allocation', value: 64 },
+    progress: { label: "Allocation", value: 64 },
     stats: [
-      { label: 'APY', value: '4.8%' },
-      { label: 'TVL', value: '$2.4M' },
-      { label: 'Risk', value: 'Low' },
+      { label: "APY", value: "4.8%" },
+      { label: "TVL", value: "$2.4M" },
+      { label: "Risk", value: "Low" },
     ],
     status: <Badge variant="success">Live</Badge>,
-    subtitle: 'Auto-managed strategy',
-    title: 'ETH staking',
+    subtitle: "Auto-managed strategy",
+    title: "ETH staking",
   },
   textarea: {
-    className: 'min-h-[120px] max-w-md',
-    defaultValue: 'This transfer is reserved for multisig approval.',
+    className: "min-h-[120px] max-w-md",
+    defaultValue: "This transfer is reserved for multisig approval.",
   },
   toggle: {
-    'aria-label': 'Toggle analytics',
+    "aria-label": "Toggle analytics",
     pressed: true,
   },
 }
 
 const genericChildren: Partial<Record<string, ReactNode>> = {
-  'aspect-ratio': (
+  "aspect-ratio": (
     <div className="flex h-full items-center justify-center text-body-sm font-medium">
       16:9 preview canvas
     </div>
   ),
-  'chat-bubble': 'Portfolio synced 2 minutes ago.',
-  chip: 'Layer 2',
-  'feature-item': 'Registry sync keeps source components copyable and current.',
-  'nav-item': 'Portfolio',
-  'section-panel': (
+  "chat-bubble": "Portfolio synced 2 minutes ago.",
+  chip: "Layer 2",
+  "feature-item": "Registry sync keeps source components copyable and current.",
+  "nav-item": "Portfolio",
+  "section-panel": (
     <div className="grid gap-2">
       <div className="text-body-sm font-semibold">Overview</div>
       <p className="text-body-sm text-muted-foreground">
@@ -233,11 +241,11 @@ const genericChildren: Partial<Record<string, ReactNode>> = {
       </p>
     </div>
   ),
-  toggle: 'Analytics',
+  toggle: "Analytics",
 }
 
 const genericCode: Record<string, string> = {
-  'aspect-ratio': `import { AspectRatio } from '@/components/ui/aspect-ratio'
+  "aspect-ratio": `import { AspectRatio } from '@/components/ui/aspect-ratio'
 
 export function AspectRatioDemo() {
   return (
@@ -248,7 +256,7 @@ export function AspectRatioDemo() {
     </AspectRatio>
   )
 }`,
-  'asset-row': `import { AssetRow } from '@/components/ui/asset-row'
+  "asset-row": `import { AssetRow } from '@/components/ui/asset-row'
 import { IconBox } from '@/components/ui/icon-box'
 import { Wallet } from 'lucide-react'
 
@@ -264,7 +272,7 @@ export function AssetRowDemo() {
     />
   )
 }`,
-  'checklist-card': `import { ChecklistCard } from '@/components/ui/checklist-card'
+  "checklist-card": `import { ChecklistCard } from '@/components/ui/checklist-card'
 import { Button } from '@/components/ui/button'
 
 export function ChecklistCardDemo() {
@@ -277,7 +285,7 @@ export function ChecklistCardDemo() {
     />
   )
 }`,
-  'feature-item': `import { FeatureItem } from '@/components/ui/feature-item'
+  "feature-item": `import { FeatureItem } from '@/components/ui/feature-item'
 import { Sparkles } from 'lucide-react'
 
 export function FeatureItemDemo() {
@@ -287,7 +295,7 @@ export function FeatureItemDemo() {
     </FeatureItem>
   )
 }`,
-  'holding-card': `import { HoldingCard } from '@/components/ui/holding-card'
+  "holding-card": `import { HoldingCard } from '@/components/ui/holding-card'
 
 export function HoldingCardDemo() {
   return (
@@ -301,19 +309,19 @@ export function HoldingCardDemo() {
     />
   )
 }`,
-  'icon-box': `import { IconBox } from '@/components/ui/icon-box'
+  "icon-box": `import { IconBox } from '@/components/ui/icon-box'
 import { Wallet } from 'lucide-react'
 
 export function IconBoxDemo() {
   return <IconBox icon={<Wallet />} size="md" variant="primary-soft" />
 }`,
-  'icon-button': `import { IconButton } from '@/components/ui/icon-button'
+  "icon-button": `import { IconButton } from '@/components/ui/icon-button'
 import { Search } from 'lucide-react'
 
 export function IconButtonDemo() {
   return <IconButton icon={<Search />} label="Search positions" size="md" variant="foreground" />
 }`,
-  'nav-item': `import { NavItem } from '@/components/ui/nav-item'
+  "nav-item": `import { NavItem } from '@/components/ui/nav-item'
 import { Wallet } from 'lucide-react'
 
 export function NavItemDemo() {
@@ -328,7 +336,7 @@ export function NavItemDemo() {
 export function ProgressDemo() {
   return <Progress value={64} />
 }`,
-  'section-panel': `import { SectionPanel } from '@/components/ui/section-panel'
+  "section-panel": `import { SectionPanel } from '@/components/ui/section-panel'
 
 export function SectionPanelDemo() {
   return (
@@ -342,12 +350,12 @@ export function SectionPanelDemo() {
     </SectionPanel>
   )
 }`,
-  'stat-cell': `import { StatCell } from '@/components/ui/stat-cell'
+  "stat-cell": `import { StatCell } from '@/components/ui/stat-cell'
 
 export function StatCellDemo() {
   return <StatCell label="Network fee" value="0.00042 ETH" />
 }`,
-  'task-card': `import { TaskCard } from '@/components/ui/task-card'
+  "task-card": `import { TaskCard } from '@/components/ui/task-card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 
@@ -384,21 +392,36 @@ export function ToggleDemo() {
 }`,
 }
 
-function createExample(title: string, description: string, preview: ReactNode, code: string) {
+function createExample(
+  title: string,
+  description: string,
+  preview: ReactNode,
+  code: string,
+) {
   return { code, description, preview, title } satisfies ComponentDocExample
 }
 
-function createGenericExample({ componentName, displayName, primaryExport }: ExampleArgs) {
+function createGenericExample({
+  componentName,
+  displayName,
+  primaryExport,
+}: ExampleArgs) {
   const Component = componentRoots[componentName]
 
   if (!Component) {
-    throw new Error(`Missing live demo coverage for ${displayName} (${componentName}).`)
+    throw new Error(
+      `Missing live demo coverage for ${displayName} (${componentName}).`,
+    )
   }
 
   return createExample(
-    'Demo',
-    'Live render using the copied test-token-ui source component.',
-    createElement(Component, genericProps[componentName], genericChildren[componentName]),
+    "Demo",
+    "Live render using the copied token-ui source component.",
+    createElement(
+      Component,
+      genericProps[componentName],
+      genericChildren[componentName],
+    ),
     genericCode[componentName] ??
       `import { ${primaryExport} } from '@/components/ui/${componentName}'
 
@@ -684,9 +707,12 @@ export function CheckboxDemo() {
 function CollapsibleExamples() {
   return [
     createExample(
-      'Basic',
-      'Collapsible content should show both the trigger and expanded content area.',
-      <CollapsibleUI.Collapsible className="grid w-full max-w-md gap-3" defaultOpen>
+      "Basic",
+      "Collapsible content should show both the trigger and expanded content area.",
+      <CollapsibleUI.Collapsible
+        className="grid w-full max-w-md gap-3"
+        defaultOpen
+      >
         <CollapsibleUI.CollapsibleTrigger asChild>
           <Button className="justify-between" variant="secondary">
             Release notes
@@ -694,7 +720,8 @@ function CollapsibleExamples() {
           </Button>
         </CollapsibleUI.CollapsibleTrigger>
         <CollapsibleUI.CollapsibleContent className="rounded-xl border border-border bg-card p-4 text-body-sm text-muted-foreground">
-          test-token-ui components stay editable after copy, so teams can adapt them without forks.
+          token-ui components stay editable after copy, so teams can adapt them
+          without forks.
         </CollapsibleUI.CollapsibleContent>
       </CollapsibleUI.Collapsible>,
       `import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
@@ -711,7 +738,7 @@ export function CollapsibleDemo() {
         </Button>
       </CollapsibleTrigger>
       <CollapsibleContent className="rounded-xl border border-border bg-card p-4 text-sm text-muted-foreground">
-        test-token-ui components stay editable after copy, so teams can adapt them without forks.
+        token-ui components stay editable after copy, so teams can adapt them without forks.
       </CollapsibleContent>
     </Collapsible>
   )

@@ -1,4 +1,4 @@
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import type { ReactNode } from "react"
 
 type ChecklistCardTone = "info" | "neutral" | "success" | "warning"

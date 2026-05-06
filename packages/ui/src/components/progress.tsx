@@ -1,5 +1,5 @@
 import * as ProgressPrimitive from '@radix-ui/react-progress'
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { cva, type VariantProps } from 'class-variance-authority'
 
 const progressTrackVariants = cva('relative w-full overflow-hidden rounded-full', {

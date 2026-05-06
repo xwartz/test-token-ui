@@ -1,4 +1,4 @@
-import { Button } from "@xwartz/test-token-ui-source/components/button"
+import { Button } from "@xwartz/token-ui-source/components/button"
 import { Check, Copy } from "lucide-react"
 import { useState } from "react"
 

@@ -1,7 +1,7 @@
 import type * as LabelPrimitive from '@radix-ui/react-label'
 import { Slot } from '@radix-ui/react-slot'
-import { Label } from "@xwartz/test-token-ui-source/components/label"
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+import { Label } from "@xwartz/token-ui-source/components/label"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import * as React from 'react'
 import {
   Controller,

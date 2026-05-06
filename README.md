@@ -1,6 +1,6 @@
-# test-token-ui
+# token-ui
 
-`test-token-ui` is the source-first React UI kit. It provides reusable components, design tokens, and a component-copy CLI for building consistent token-centric interfaces.
+`token-ui` is the source-first React UI kit. It provides reusable components, design tokens, and a component-copy CLI for building consistent token-centric interfaces.
 
 It follows the shadcn-style model: components are copied into your project instead of consumed as a locked runtime package.
 
@@ -14,7 +14,7 @@ It follows the shadcn-style model: components are copied into your project inste
 ## Repository Structure
 
 ```text
-test-token-ui/
+token-ui/
 ├── apps/
 │   └── docs/         # docs site
 ├── docs/             # markdown guides
@@ -28,13 +28,13 @@ test-token-ui/
 
 ## Docs Preview
 
-- [https://test-token-ui-docs.vercel.app](https://test-token-ui-docs.vercel.app)
+- [https://token-ui-docs.vercel.app](https://token-ui-docs.vercel.app)
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/xwartz/test-token-ui.git
-cd test-token-ui
+git clone https://github.com/xwartz/token-ui.git
+cd token-ui
 pnpm install
 pnpm dev
 ```
@@ -44,8 +44,8 @@ The Vite example shows the core primitives, tokens, and composition patterns.
 ## Install In Your App
 
 ```bash
-pnpm dlx @xwartz/test-token-ui@latest init
-pnpm dlx @xwartz/test-token-ui@latest add button card input badge dialog
+pnpm dlx @xwartz/token-ui@latest init
+pnpm dlx @xwartz/token-ui@latest add button card input badge dialog
 ```
 
 The CLI copies component source, `src/lib/utils.ts`, and `src/styles/globals.css` into your app. It also prints peer dependencies that should be installed.

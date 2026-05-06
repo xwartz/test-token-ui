@@ -1,23 +1,23 @@
 import { Slot } from '@radix-ui/react-slot'
-import { Button } from "@xwartz/test-token-ui-source/components/button"
-import { Input } from "@xwartz/test-token-ui-source/components/input"
-import { Separator } from "@xwartz/test-token-ui-source/components/separator"
+import { Button } from "@xwartz/token-ui-source/components/button"
+import { Input } from "@xwartz/token-ui-source/components/input"
+import { Separator } from "@xwartz/token-ui-source/components/separator"
 import {
   Sheet,
   SheetContent,
   SheetDescription,
   SheetHeader,
   SheetTitle,
-} from "@xwartz/test-token-ui-source/components/sheet"
-import { Skeleton } from "@xwartz/test-token-ui-source/components/skeleton"
+} from "@xwartz/token-ui-source/components/sheet"
+import { Skeleton } from "@xwartz/token-ui-source/components/skeleton"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@xwartz/test-token-ui-source/components/tooltip"
-import { useIsMobile } from "@xwartz/test-token-ui-source/hooks/use-mobile"
-import { cn } from "@xwartz/test-token-ui-source/lib/utils"
+} from "@xwartz/token-ui-source/components/tooltip"
+import { useIsMobile } from "@xwartz/token-ui-source/hooks/use-mobile"
+import { cn } from "@xwartz/token-ui-source/lib/utils"
 import { cva, type VariantProps } from 'class-variance-authority'
 import { PanelLeftIcon } from 'lucide-react'
 import * as React from 'react'
