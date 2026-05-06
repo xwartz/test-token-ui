@@ -4,6 +4,28 @@
 
 It follows the shadcn-style model: components are copied into your project instead of consumed as a locked runtime package.
 
+## Overview
+
+- Source-first React UI components
+- Shared design tokens in `globals.css`
+- CLI for copying components into local apps
+- Example app and docs site for reference
+
+## Repository Structure
+
+```text
+test-token-ui/
+├── apps/
+│   └── docs/         # docs site
+├── docs/             # markdown guides
+├── examples/
+│   └── vite/         # example app
+├── packages/
+│   ├── ui/           # source components, styles, utils
+│   └── cli/          # component-copy CLI
+└── package.json
+```
+
 ## Docs Preview
 
 - [https://test-token-ui-docs.vercel.app](https://test-token-ui-docs.vercel.app)
@@ -27,6 +49,16 @@ pnpm dlx @xwartz/test-token-ui@latest add button card input badge dialog
 ```
 
 The CLI copies component source, `src/lib/utils.ts`, and `src/styles/globals.css` into your app. It also prints peer dependencies that should be installed.
+
+## Local Commands
+
+```bash
+pnpm dev
+pnpm docs:dev
+pnpm docs:build
+pnpm docs:preview
+pnpm build
+```
 
 ## Manual Copy
 
